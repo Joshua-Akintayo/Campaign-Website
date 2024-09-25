@@ -1,0 +1,155 @@
+/* Hamburger Menu */
+.menu-wrap {
+  right: 15px;
+}
+
+.menu-wrap .toggler {
+  right: 15px;
+}
+
+.menu-wrap .hamburger {
+  right: 15px;
+}
+
+/* Main-nav */
+#main-nav {
+  padding-top: 3rem;
+}
+
+/* Home Section */
+.home-content {
+display: flex;
+flex-direction: column-reverse;
+}
+
+.home-content .home-content-1 {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home-content .home-content-1 h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.home-content .home-content-1 > h1 > span {
+  font-size: 30px;
+}
+
+.home-content .home-content-1 p {
+  display: none;
+  /* font-size: 25px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  text-align: justify;
+  text-justify: inter-word; */
+} 
+
+/* About Section */
+.about-info {
+  margin-top: 90px;
+}
+
+.about-info > h1 {
+  font-size: 40px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-content .about-content-1 > img {
+  margin: 40px auto auto auto;
+  width: 350px;
+  height: 500px;
+}
+
+.about-content .about-content-2 {
+  margin-top: 20px;
+}
+
+.about-content .about-content-2 > h2 {
+  /* text-align: center; */
+  font-size: 32px;
+}
+
+.about-content .about-content-2 > p {
+  font-size: 20px;
+  line-height: 2;
+  font-weight: lighter;
+  width: auto;
+}
+
+.about-content .about-content-2 > p > .text-primary {
+  font-size: 20px;
+}
+
+/* Records Section */
+.records-info {
+  margin-top: 90px;
+}
+
+.records-info > h1 {
+  font-size: 40px;
+}
+
+.records-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.records-content .records-content-1 > img {
+  margin: 40px auto auto auto;
+  width: 350px;
+  height: 550px;
+}
+
+.records-content .records-content-2 {
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+.records-content .records-content-2 > h2 {
+  /* text-align: center; */
+  font-size: 35px;
+}
+
+.records-content .records-content-2 > p {
+  font-size: 23px;
+}
+
+.records-content .records-content-2 > ul {
+  font-size: 23px;
+}
+
+/* Why Me Section */
+.whyme-info {
+  margin-top: 90px;
+}
+
+.whyme-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.whyme-content .whyme-content-1 > img {
+  margin: 40px auto auto auto;
+  width: 350px;
+  height: 550px;
+}
+
+.whyme-content .whyme-content-2 {
+  margin-top: 20px;
+  margin-left: auto;
+  width: auto;
+  font-size: 23px;
+}
+
+.whyme-content .whyme-content-2 > p {
+  margin-top: 15px;
+  line-height: 1.5;
+  font-weight: lighter;
+}
